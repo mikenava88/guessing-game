@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,24 +9,33 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <header>
-
+<H1>Wanna play a game?</H1>
 
 
 </header>
+
 <body>
-   <section>
-    <h1>
-    Instructions
-    </h1>
-    <p>Step 1 Enter number between 1-100</p>
-    <p>Step 2 submit your guess</p>
-    <p>Good Luck</p>
-   </section>
-   <h1 class="gameresult">  </h1>
-   <h2 class="hint"></h2>
+    <section> <!--instructions -------------------------------------------------------------------------->
+        <h1>
+            Instructions
+        </h1>
+        <p>Step 1 Enter number between 1-100</p>
+        <p>Step 2 submit your guess</p>
+        <p>Good Luck</p>
+    </section>
+
+        <!--game ------------------------------------------------------------------------------------------>
+    <h1 class="gameresult"> </h1>
+    <h2 class="hint"></h2>
+    <div>
+        <h3 class="tally"></h3>
+    </div>
+
+
     <input class="gameinput" type="number" max="100" min="1">
-   <button class="submitbutton"> Click Here </button>
-   <button class="reset">Click here to reset</button>
+    <button class="submitbutton"> Click Here </button>
+    <button class="reset">Click here to reset</button>
     <script src="index.js"></script>
 </body>
+
 </html>
